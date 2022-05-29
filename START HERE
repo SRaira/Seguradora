@@ -1,0 +1,53 @@
+PROJETO APRESENTADO A DISCIPLINA DE LINGUAGEM DE PROGRAMAÇÃO I
+
+UNIESP - CURSO SISTEMAS PARA INTERNET
+
+Seguradora de Imóveis
+
+->A segurado faz seguro para cobrir danos causados a imóveis.
+
+->Os clientes da seguradora podem ser
+------Pessoa Física
+------Pessoa Jurídica
+
+->Assim, existem dois tipos de Contratos:
+------Residencial
+------Empresarial
+
+->Quando se trata de contrato residencial devemos armazenar as seguintesinformações:
+------Cliente
+------Endereço
+------Valor do imóvel
+------Zona na qual o imóvel se encontra: urbana,suburbana e rural.
+------Tipo de residência: apartamento ou casa.
+
+->Quando se trata de contrato empresarial devemos armazenar as seguintes informações:
+
+------Cliente
+------Valor do imóvel
+------Número de funcionários
+------Número de visitas diárias
+------Ramo: comércio, indústria ou agropecuária.
+
+->Forma de cálculo do seguro residencial:
+
+------2% do valor do móvel somados a:
+------1% se zona urbana
+------0,5% se zona suburbana
+------0,5% se casa.
+
+->Forma de cálculo do seguro empresarial:
+
+------4% do valor do móvel somados a:
+------0,2% a cada 10 funcionários
+------0,3% a cada 200 visitas diárias
+------1% se industria
+------0,5% se comércio
+
+->Funcionalidades:
+
+------Cadastro de clientes
+------Cadastro de contratos
+------Lista de clientes
+------Lista de contratos
+------Persistência com serialização
